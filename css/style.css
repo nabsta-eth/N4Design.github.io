@@ -5556,6 +5556,25 @@ h6 + .rating-list {
 	background-color: rgba(224, 251, 252, 1);
 }
 
+.bg-glitter {
+	background-color: rgba(235, 234, 240, 1);
+}
+
+.bg-mint-cream {
+	background-color: rgba(245, 249, 251, 1);
+}
+
+.bg-anti-flash-white-1 {
+	background-color: rgba(237, 240, 243, 1);
+}
+
+.bg-off-white {
+	background-color: rgba(252, 254, 254, 1);
+};
+.bg-anti-flash-white-2 {
+	background-color: rgba(239, 241, 246, 1);
+}
+
 .bg-accent + .bg-accent.section-md,
 .bg-accent + .bg-accent.section-lg,
 .bg-accent + .bg-accent.section-xl {
