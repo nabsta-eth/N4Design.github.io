@@ -683,6 +683,12 @@ span.button {
 	border-color: #000000;
 }
 
+.page .button-light-outline:hover, .page .button-light-outline:focus, .page .button-light-outline:active, .page .button-light-outline:hover {
+	color: #262262;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
 .page .button-black {
 	color: #fff;
 	background-color: #262262;
