@@ -94,6 +94,19 @@
 	 */
 	$(function () {
 
+/* Enable Nicescroll */
+    $('html.desktop body').niceScroll({
+        cursorcolor: "rgba(153, 153, 153, 0.7)",
+        autohidemode: false,
+        cursorborder: "none",
+        zindex: "9999",
+        railpadding: { top: 5, right: 5, left: 0, bottom: 5},
+        cursorminheight: 200,
+        emulatetouch: false,
+        grabcursorenabled: false,
+        preservenativescrolling: true
+    });
+		
 		/**
 		 * getSwiperHeight
 		 * @description  calculate the height of swiper slider basing on data attr
