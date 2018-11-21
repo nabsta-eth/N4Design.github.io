@@ -11126,8 +11126,10 @@ html.rd-navbar-fixed-linked .page {
 	filter: drop-shadow(0 0 5px #262262);
 }
 .rd-navbar-nav-wrap .rd-navbar-brand img {
-    -webkit-filter: none;
-    filter: none;
+	-webkit-filter: none;
+	filter: none;
+	max-height: unset !important;
+	width: 174px !important;
 }
 .rd-navbar-sidebar .rd-navbar-nav-wrap {
 	position: fixed;
