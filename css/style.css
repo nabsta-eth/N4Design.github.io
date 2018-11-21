@@ -11125,7 +11125,10 @@ html.rd-navbar-fixed-linked .page {
 	-webkit-filter: drop-shadow(0 0 5px rgb(38, 34, 98));
 	filter: drop-shadow(0 0 5px #262262);
 }
-
+.rd-navbar-nav-wrap .rd-navbar-brand img {
+    -webkit-filter: none;
+    filter: none;
+}
 .rd-navbar-sidebar .rd-navbar-nav-wrap {
 	position: fixed;
 	top: 0;
@@ -11136,14 +11139,16 @@ html.rd-navbar-fixed-linked .page {
 	transform: translateX(101%);
 	transition: .36s all ease-in-out;
 	background: #fff;
-	padding-top: calc(6% + 1em);
+	padding-top: 35px;
 	padding-bottom: calc(1% + 1em);
 	text-align: center;
 	overflow-x: hidden;
 	overflow-y: auto;
 	border: 1px solid #f3f3f3;
 }
-
+.rd-navbar-nav-wrap .rd-navbar-brand {
+    margin-bottom: 35px;
+}
 .rd-navbar-sidebar .rd-navbar-nav-wrap.active {
 	transform: translateX(0);
 }
