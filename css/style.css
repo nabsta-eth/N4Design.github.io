@@ -13478,15 +13478,15 @@ a.pswp__share--download:hover {
 	}
 }
 
+.swiper-slider_fullheight {
+	min-height: calc(100vh - 56px);
+	height: auto;
+}
+
 @media (min-width: 1200px) {
 	.swiper-slider_fullheight {
 		min-height: 100vh;
 	}
-}
-
-.swiper-slider_fullheight {
-	min-height: calc(100vh - 56px);
-	height: auto;
 }
 
 .swiper-slider_fullheight .swiper-pagination {
