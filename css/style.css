@@ -13534,9 +13534,6 @@ a.pswp__share--download:hover {
 }
 
 @media (min-width: 992px) {
-	.desktop .swiper-slider_fullheight {
-		min-height: 100vh;
-	}
 	.desktop .rd-navbar-default-linked .swiper-slider_fullheight {
 		min-height: calc(100vh - 164px);
 	}
