@@ -7200,8 +7200,13 @@ html.lt-ie-10 .range-condensed > [class*='cell'],
 	animation-duration: 2s;
 }
 
-html:not(.lt-ie10) .not-animated {
+html:not(.lt-ie10) .not-animated,
+html:not(.lt-ie10) .button:not(.animated) {
 	opacity: 0;
+}
+html:not(.lt-ie10) .animated,
+html:not(.lt-ie10) .button:not(.not-animated) {
+	opacity: 1 !important;
 }
 
 /**
