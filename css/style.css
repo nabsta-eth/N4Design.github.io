@@ -886,6 +886,10 @@ span.button {
 	max-width: 50%;
 }
 
+html[class*="ie"] .blurb img {
+	width: 50%;
+}
+
 .blurb__title {
 	font-size: 18px;
 	line-height: 1.33;
@@ -13485,7 +13489,7 @@ a.pswp__share--download:hover {
 
 @media (min-width: 1200px) {
 	.swiper-slider_fullheight {
-		min-height: 100vh;
+		min-height: 100vh !important;
 	}
 }
 
