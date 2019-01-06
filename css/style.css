@@ -27449,3 +27449,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .linear-icon-copyright:before {
 	content: "\a9";
 }
+
+html[class*="ie"] #services .col-lg-3:first-child {
+	max-height: 650px;
+}
